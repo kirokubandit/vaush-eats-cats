@@ -1,0 +1,57 @@
+html
+{
+	background-color: #161819;
+}
+body
+{
+	max-width: 1000px;
+	margin: auto;
+}
+h1
+{
+	color: #ffffff;
+	text-align: center;
+}
+img
+{
+	width: 100%;
+}
+.post
+{
+	margin: 30px 0 0 0;
+	padding: 15px;
+	background-color: #EBEDEF;
+	border-radius: 10px;
+}
+footer
+{
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	text-align: center;
+  	background-color: #161819;
+}
+footer p
+{
+	color: #ffffff;
+	font-size: 13px;
+}
+footer a
+{
+	color: #ffffff;
+}
+
+@media (max-width: 960px)
+{
+	footer
+  	{
+    	padding-top: 20px;
+    	position: relative;
+  	}
+}
+
+.last
+{
+	margin-bottom: 60px;
+}
